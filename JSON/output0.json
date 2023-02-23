@@ -1,0 +1,53 @@
+[
+    {
+        "id": "course_id",
+        "text": "course_name",
+        "expanded": true,
+        "items": [
+            {
+                "id": "subject_id",
+                "text": "subject_name",
+                "expanded": false,
+                "items": [
+                    {
+                        "id": "module_id",
+                        "text": "module_name",
+                        "expanded": false,
+                        "items":[
+                            {
+                                "id": "chapter_id",
+                                "text": "chapter_name",
+                                "expanded": false,
+                                "items":[
+                                    {
+                                        "id":"topic_id",
+                                        "text":"topic_name"
+                                    },
+                                    {
+                                        "id":"topic_id",
+                                        "text":"topic_name"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "chapter_id",
+                                "text": "chapter_name",
+                                "expanded": false,
+                                "items":[
+                                    {
+                                        "id":"topic_id",
+                                        "text":"topic_name"
+                                    },
+                                    {
+                                        "id":"topic_id",
+                                        "text":"topic_name"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
