@@ -1,184 +1,4 @@
 
-var jsonData = [
-    // {
-    //     "course_id": 1,
-    //     "course_name": "MCO1",
-    //     "items": [
-    //         {
-    //             "subject_id": 1,
-    //             "subject_name": "Data Transfer Language",
-    //             "items": [
-    //                 {
-    //                     "module_id": 1,
-    //                     "module_name": "Data Transfer Language",
-    //                     "items": [
-    //                         {
-    //                             "chapter_id": 1,
-    //                             "chapter_name": "Apache Avro",
-    //                             "items": [
-    //                                 {
-    //                                     "topic_id": 1,
-    //                                     "topic_name": "Apache Avro\\r1"
-    //                                 }
-    //                             ]
-    //                         }
-    //                     ]
-    //                 }
-    //             ]
-    //         }
-    //     ]
-    // },
-    // {
-    //     "course_id": 1,
-    //     "course_name": "MCO2",
-    //     "items": [
-    //         {
-    //             "subject_id": 1,
-    //             "subject_name": "Data Transfer Language",
-    //             "items": [
-    //                 {
-    //                     "module_id": 1,
-    //                     "module_name": "Data Transfer Language",
-    //                     "items": [
-    //                         {
-    //                             "chapter_id": 2,
-    //                             "chapter_name": "Apache Avro",
-    //                             "items": [
-    //                                 {
-    //                                     "topic_id": 2,
-    //                                     "topic_name": "Apache Avro\\r2"
-    //                                 }
-    //                             ]
-    //                         }
-    //                     ]
-    //                 }
-    //             ]
-    //         }
-    //     ]
-    // },
-    {
-        "course_id": 1,
-        "course_name": "MCO3",
-        "items": [
-            {
-                "subject_id": 1,
-                "subject_name": "Data Transfer Language",
-                "items": [
-                    {
-                        "module_id": 1,
-                        "module_name": "MCO",
-                        "items": [
-                            {
-                                "chapter_id": 3,
-                                "chapter_name": "Groovey Scripting",
-                                "items": [
-                                    {
-                                        "topic_id": 1,
-                                        "topic_name": "Groovey Scripting\\r3"
-                                    },
-                                    {
-                                        "topic_id": 2,
-                                        "topic_name": "Groovey Scripting\\r3"
-                                    },
-                                    {
-                                        "topic_id": 3,
-                                        "topic_name": "Groovey Scripting\\r3"
-                                    },
-                                    {
-                                        "topic_id": 4,
-                                        "topic_name": "Groovey Scripting\\r3"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "course_id": 1,
-        "course_name": "MCO3",
-        "items": [
-            {
-                "subject_id": 1,
-                "subject_name": "Data Transfer Language",
-                "items": [
-                    {
-                        "module_id": 1,
-                        "module_name": "MCO",
-                        "items": [
-                            {
-                                "chapter_id": 3,
-                                "chapter_name": "Groovey Scripting",
-                                "items": [
-                                    {
-                                        "topic_id": 1,
-                                        "topic_name": "Groovey Scripting\\r3"
-                                    },
-                                    {
-                                        "topic_id": 2,
-                                        "topic_name": "Groovey Scripting\\r3"
-                                    },
-                                    {
-                                        "topic_id": 3,
-                                        "topic_name": "Groovey Scripting\\r3"
-                                    },
-                                    {
-                                        "topic_id": 4,
-                                        "topic_name": "Groovey Scripting\\r3"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "course_id": 1,
-        "course_name": "MCO3",
-        "items": [
-            {
-                "subject_id": 1,
-                "subject_name": "Data Transfer Language",
-                "items": [
-                    {
-                        "module_id": 1,
-                        "module_name": "MCO",
-                        "items": [
-                            {
-                                "chapter_id": 3,
-                                "chapter_name": "Groovey Scripting",
-                                "items": [
-                                    {
-                                        "topic_id": 1,
-                                        "topic_name": "Groovey Scripting\\r3"
-                                    },
-                                    {
-                                        "topic_id": 2,
-                                        "topic_name": "Groovey Scripting\\r3"
-                                    },
-                                    {
-                                        "topic_id": 3,
-                                        "topic_name": "Groovey Scripting\\r3"
-                                    },
-                                    {
-                                        "topic_id": 4,
-                                        "topic_name": "Groovey Scripting\\r3"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    }
-]
-
-
 // $.getJSON('input1.json', function (jsonData) {
 //     for (var i in jsonData) {
 //         var row = `<tr>
@@ -200,60 +20,199 @@ var jsonData = [
 //     }
 // });
 
+var jsonData = [
+    {
+        "course_id": 1,
+        "course_name": "MCO3",
+        "items": [
+            {
+                "subject_id": 1,
+                "subject_name": "Data Transfer Language",
+                "items": [
+                    {
+                        "module_id": 1,
+                        "module_name": "MCO",
+                        "items": [
+                            {
+                                "chapter_id": 1,
+                                "chapter_name": "Groovey Scripting 1",
+                                "items": [
+                                    {
+                                        "topic_id": 1,
+                                        "topic_name": "Groovey Scripting\\r1"
+                                    },
+                                    {
+                                        "topic_id": 2,
+                                        "topic_name": "Groovey Scripting\\r2"
+                                    },
+                                    {
+                                        "topic_id": 3,
+                                        "topic_name": "Groovey Scripting\\r3"
+                                    },
+                                    {
+                                        "topic_id": 4,
+                                        "topic_name": "Groovey Scripting\\r4"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "course_id": 1,
+        "course_name": "MCO3",
+        "items": [
+            {
+                "subject_id": 1,
+                "subject_name": "Data Transfer Language",
+                "items": [
+                    {
+                        "module_id": 1,
+                        "module_name": "MCO",
+                        "items": [
+                            {
+                                "chapter_id": 2,
+                                "chapter_name": "Groovey Scripting 2",
+                                "items": [
+                                    {
+                                        "topic_id": 1,
+                                        "topic_name": "Groovey Scripting\\r1"
+                                    },
+                                    {
+                                        "topic_id": 2,
+                                        "topic_name": "Groovey Scripting\\r2"
+                                    },
+                                    {
+                                        "topic_id": 3,
+                                        "topic_name": "Groovey Scripting\\r3"
+                                    },
+                                    {
+                                        "topic_id": 4,
+                                        "topic_name": "Groovey Scripting\\r4"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "course_id": 1,
+        "course_name": "MCO3",
+        "items": [
+            {
+                "subject_id": 1,
+                "subject_name": "Data Transfer Language",
+                "items": [
+                    {
+                        "module_id": 1,
+                        "module_name": "MCO",
+                        "items": [
+                            {
+                                "chapter_id": 3,
+                                "chapter_name": "Groovey Scripting 3",
+                                "items": [
+                                    {
+                                        "topic_id": 1,
+                                        "topic_name": "Groovey Scripting\\r 1"
+                                    },
+                                    {
+                                        "topic_id": 2,
+                                        "topic_name": "Groovey Scripting\\r 2"
+                                    },
+                                    {
+                                        "topic_id": 3,
+                                        "topic_name": "Groovey Scripting\\r 3"
+                                    },
+                                    {
+                                        "topic_id": 4,
+                                        "topic_name": "Groovey Scripting\\r 4"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
+
 
 for (var i = 0; i < jsonData.length; i++) {
     var course = jsonData[i];
-    // console.log(jsonData);
-    // console.log("course ID:", course.course_id);
-    // console.log("course Name:", course.course_name);
+
+    $(".container").append(" <p>{ </p>");
+    var course_id = $("<p>").html("&emsp; course_id: " + course.course_id + ",");
+    var course_name = $("<p>").html("&emsp; course_name: \"" + course.course_name + "\"");
+    $(".container").append(course_id);
+    $(".container").append(course_name);
+    var items = $("<p>").html("&emsp; items: [");
+    $(".container").append(items);
+
     for (var j = 0; j < course.items.length; j++) {
         var subject = course.items[j];
+
+        $(".container").append(" <p>" + "&emsp;".repeat(5) + "{</p>");
+        var subject_id = $("<p>").html("&emsp;".repeat(7) + "subject_id: " + subject.subject_id + ",");
+        var subject_name = $("<p>").html("&emsp;".repeat(7) + " subject_name: \"" + subject.subject_name + "\"");
+        $(".container").append(subject_id);
+        $(".container").append(subject_name);
+        var items = $("<p>").html("&emsp;".repeat(7) + " items: [");
+        $(".container").append(items);
+
         for (var k = 0; k < subject.items.length; k++) {
             var module = subject.items[k];
-            // console.log(subject.items);
+
+            $(".container").append("&emsp;".repeat(11) + "<p style='display: inline';>{</p>");
+            var module_id = $("<p>").html("&emsp;".repeat(13) + " module_id: " + module.module_id + ",");
+            var module_name = $("<p>").html("&emsp;".repeat(13) + " module_name: \"" + module.module_name + "\"");
+            $(".container").append(module_id);
+            $(".container").append(module_name);
+            var items = $("<p>").html("&emsp;".repeat(13) + " items: [");
+            $(".container").append(items);
+
             for (var l = 0; l < module.items.length; l++) {
                 var chapter = module.items[l];
-                // "items": [
-                var items = $("<h2>").text("items:");
+
+                $(".container").append("&emsp;".repeat(17) + "<p style='display: inline';>{ </p>");
+                var chapter_id = $("<p>").html("&emsp;".repeat(19) + " chapter_id: " + chapter.chapter_id + ",");
+                var chapter_name = $("<p>").html("&emsp;".repeat(19) + " chapter_name: \"" + chapter.chapter_name + "\"");
+                $(".container").append(chapter_id);
+                $(".container").append(chapter_name);
+                var items = $("<p>").html("&emsp;".repeat(19) + " items: [");
                 $(".container").append(items);
+
                 for (var m = 0; m < chapter.items.length; m++) {
-
                     var topic = chapter.items[m];
-                    console.log("Topic ID:", topic.topic_id);
-                    console.log("Topic Name:", topic.topic_name);
 
-                    // "items": [
-                    //     {
-                    //         "topic_id": 3,
-                    //         "topic_name": "Groovey Scripting\\r3"
-                    //     },
-                    //     {
-                    //         "topic_id": 3,
-                    //         "topic_name": "Groovey Scripting\\r3"
-                    //     },
-                    //     {
-                    //         "topic_id": 3,
-                    //         "topic_name": "Groovey Scripting\\r3"
-                    //     },
-                    //     {
-                    //         "topic_id": 3,
-                    //         "topic_name": "Groovey Scripting\\r3"
-                    //     }
-                    // ]
-
-                    $(".container").append(" <h2>{ <h2/>");
-                    var topic_id = $("<h2>").text(" topic_id: " + topic.topic_id + ",");
-                    var topic_name = $("<h2>").text("topic_name: \"" + topic.topic_name + "\"");
+                    $(".container").append("&emsp;".repeat(23) + "<p style='display: inline';>{</p>");
+                    var topic_id = $("<p>").html("&emsp;".repeat(25) + "topic_id: " + topic.topic_id + ",");
+                    var topic_name = $("<p>").html("&emsp;".repeat(25) + "topic_name: \"" + topic.topic_name + "\"");
                     $(".container").append(topic_id);
                     $(".container").append(topic_name);
-                    $(".container").append("<h2>},<h2/>");
+                    $(".container").append("&emsp;".repeat(23) + "<p style='display: inline';>},</p><br/>");
 
-
-
-                    // $(".text").text("Topic ID: " + topic.topic_id);
-                    // $(".text2").text("Topic name: " + topic.topic_name);
                 }
+
+                var items2 = $("<p>").html("&emsp;".repeat(22) + "]");
+                $(".container").append(items2);
+                $(".container").append("&emsp;".repeat(17) + "<p style='display: inline';>},</p>");
             }
+            var items3 = $("<p>").html("&emsp;".repeat(16) + "]");
+            $(".container").append(items3);
+            $(".container").append("&emsp;".repeat(11) + "<p style='display: inline';>},</p>");
         }
+        var items4 = $("<p>").html("&emsp;".repeat(10) + "]");
+        $(".container").append(items4);
+        $(".container").append("&emsp;".repeat(5) + "<p style='display: inline';>},</p>");
     }
+    var items5 = $("<p>").html("&emsp;".repeat(4) + "]");
+    $(".container").append(items5);
+    $(".container").append("<p style='display: inline';>},</p>");
 }
